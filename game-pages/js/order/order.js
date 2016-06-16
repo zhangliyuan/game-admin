@@ -72,10 +72,10 @@ var Order = baseClass(function(opts){
 
         if(obj.hasClass('fa-caret-square-o-down')){
             obj.removeClass('fa-caret-square-o-down').addClass('fa-caret-square-o-up');
-            obj.closest('.order-item').find('.order-detail').show();
+            obj.closest('.item').find('.item-detail').show();
         }else{
             obj.removeClass('fa-caret-square-o-up').addClass('fa-caret-square-o-down');
-            obj.closest('.order-item').find('.order-detail').hide();
+            obj.closest('.item').find('.item-detail').hide();
         }
 
     },
