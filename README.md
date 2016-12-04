@@ -100,3 +100,4 @@ Image Credits:
 [ajaxload](http://www.ajaxload.info/ "")
 
 [pickaface](http://pickaface.net/ "")
+中文字符
